@@ -1,0 +1,12 @@
+@startuml diagrama
+
+package MetodoJacobi{
+
+class Jacobi{
+    + void etMatrixCoefficient()
+    + void setVectorValue()
+    + void setInitialGuess()
+    + void solve()
+}
+}
+@enduml
